@@ -2,12 +2,14 @@ package org.alikwon.guestbood;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
-public class SampleGuestboodStudyApplication {
+@EnableJpaAuditing
+public class GuestbookStudyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SampleGuestboodStudyApplication.class, args);
+        SpringApplication.run(GuestbookStudyApplication.class, args);
     }
 
 }
