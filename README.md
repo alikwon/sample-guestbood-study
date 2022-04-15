@@ -165,4 +165,4 @@ public class GuestbookStudyApplication {
     - 위 코드 추가후 `gradle clean` 후 `gradle compileJava` 실행
     - 실행이 완료되면 build 폴더안에 다음과 같은 구조가 생성됨
 
-      ![생성된구조](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d5e0d7a-be19-4a4e-b1dd-b1a06a25f2b7/Untitled.png)
+      ![생성된구조](https://ibb.co/DbCGR9b)
