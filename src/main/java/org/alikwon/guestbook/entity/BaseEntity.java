@@ -1,4 +1,4 @@
-package org.alikwon.guestbood.entity;
+package org.alikwon.guestbook.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

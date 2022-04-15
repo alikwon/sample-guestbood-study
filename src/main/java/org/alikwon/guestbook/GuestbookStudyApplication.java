@@ -1,4 +1,4 @@
-package org.alikwon.guestbood;
+package org.alikwon.guestbook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
