@@ -166,4 +166,4 @@ public class GuestbookStudyApplication {
     - 실행이 완료되면 build 폴더안에 다음과 같은 구조가 생성됨
 
       ![생성된구조](https://i.imgur.com/9YLxkNa.png)
-    - 
+  - 그 후 `Repository` 인터페이스에 `QuerydslPredicateExecutor` 인터페이스를 추가상속함
