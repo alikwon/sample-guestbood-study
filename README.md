@@ -428,3 +428,5 @@ public class PageResultDTO<DTO, ENTITY> {
 - 생성자
     - `Page<ENTITY>` 타입을 이용해서 `List<DTO>` 타입의 list를 생성
     - `Function<ENTITY, DTO>` 는 ENTITY를 변환 로직을 거쳐서 DTO로 변환해주는 기능
+---
+...ing
