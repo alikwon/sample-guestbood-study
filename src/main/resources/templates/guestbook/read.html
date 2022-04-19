@@ -29,10 +29,10 @@
                    th:value="${#temporals.format(dto.modDate, 'yyyy/MM/dd HH:mm:ss')}"
                    readonly>
         </div>
-        <a class="btn btn-primary" th:href="@{/guestbook/modify(gno = ${dto.gno}, page=${requestDTO.page})}">
+        <a class="btn btn-primary" th:href="@{/guestbook/modify(gno = ${dto.gno}, page=${requestDTO.page}, type=${requestDTO.type}, keyword=${requestDTO.keyword})}">
             Modify
         </a>
-        <a class="btn btn-info" th:href="@{/guestbook/list(page=${requestDTO.page})}">
+        <a class="btn btn-info" th:href="@{/guestbook/list(page=${requestDTO.page}, type=${requestDTO.type}, keyword=${requestDTO.keyword})}">
             List
         </a>
     </th:block>
