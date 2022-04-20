@@ -165,7 +165,7 @@ public class GuestbookStudyApplication {
     - 위 코드 추가후 `gradle clean` 후 `gradle compileJava` 실행
     - 실행이 완료되면 build 폴더안에 다음과 같은 구조가 생성됨
 
-      ![생성된구조](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/babe24d9-82aa-48b7-9e7a-feea11ed955c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220420%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220420T134937Z&X-Amz-Expires=86400&X-Amz-Signature=b05f604cfacc3f1de0602bb4465c053a9329b030932067b94a2060efea7c1d47&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+      ![생성된구조](https://i.imgur.com/9YLxkNa.png)
     - 그 후 `Repository` 인터페이스에 `QuerydslPredicateExecutor` 인터페이스를 추가상속함
 
       ```java
