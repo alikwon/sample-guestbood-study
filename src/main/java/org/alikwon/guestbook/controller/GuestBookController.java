@@ -2,9 +2,9 @@ package org.alikwon.guestbook.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import org.alikwon.guestbook.dto.guestbook.GuestbookDTO;
+import org.alikwon.guestbook.dto.GuestbookDTO;
 import org.alikwon.guestbook.dto.PageRequestDTO;
-import org.alikwon.guestbook.service.guestbook.GuestbookService;
+import org.alikwon.guestbook.service.GuestbookService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

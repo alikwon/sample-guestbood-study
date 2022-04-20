@@ -1,6 +1,6 @@
-package org.alikwon.guestbook.repository.guestbook;
+package org.alikwon.guestbook.repository;
 
-import org.alikwon.guestbook.entity.guestbook.GuestBook;
+import org.alikwon.guestbook.entity.GuestBook;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 
