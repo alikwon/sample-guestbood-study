@@ -1,17 +1,15 @@
-package org.alikwon.guestbook.service;
+package org.alikwon.guestbook.service.guestbook;
 
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import org.alikwon.guestbook.dto.GuestbookDTO;
+import org.alikwon.guestbook.dto.guestbook.GuestbookDTO;
 import org.alikwon.guestbook.dto.PageRequestDTO;
 import org.alikwon.guestbook.dto.PageResultDTO;
-import org.alikwon.guestbook.entity.GuestBook;
-import org.alikwon.guestbook.entity.QGuestBook;
-import org.alikwon.guestbook.repository.GuestBookRepository;
-import org.alikwon.guestbook.service.GuestbookService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.alikwon.guestbook.entity.guestbook.GuestBook;
+import org.alikwon.guestbook.entity.guestbook.QGuestBook;
+import org.alikwon.guestbook.repository.guestbook.GuestBookRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;

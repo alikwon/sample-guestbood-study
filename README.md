@@ -169,7 +169,7 @@ public class GuestbookStudyApplication {
     - 그 후 `Repository` 인터페이스에 `QuerydslPredicateExecutor` 인터페이스를 추가상속함
 
       ```java
-      import org.alikwon.guestbook.entity.GuestBook;
+      import org.alikwon.guestbook.entity.guestbook.GuestBook;
       import org.springframework.data.jpa.repository.JpaRepository;
       import org.springframework.data.querydsl.QuerydslPredicateExecutor;
     

@@ -1,4 +1,4 @@
-package org.alikwon.guestbook.dto;
+package org.alikwon.guestbook.dto.guestbook;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
