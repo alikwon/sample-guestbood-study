@@ -1,7 +1,6 @@
-package org.alikwon.guestbook.entity.guestbook;
+package org.alikwon.guestbook.entity;
 
 import lombok.*;
-import org.alikwon.guestbook.entity.BaseEntity;
 
 import javax.persistence.*;
 
@@ -11,7 +10,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class GuestBook extends BaseEntity {
+public class GuestBook extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long gno;
