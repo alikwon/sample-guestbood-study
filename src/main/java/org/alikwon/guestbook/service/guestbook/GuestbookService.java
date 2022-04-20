@@ -1,9 +1,9 @@
-package org.alikwon.guestbook.service;
+package org.alikwon.guestbook.service.guestbook;
 
-import org.alikwon.guestbook.dto.GuestbookDTO;
+import org.alikwon.guestbook.dto.guestbook.GuestbookDTO;
 import org.alikwon.guestbook.dto.PageRequestDTO;
 import org.alikwon.guestbook.dto.PageResultDTO;
-import org.alikwon.guestbook.entity.GuestBook;
+import org.alikwon.guestbook.entity.guestbook.GuestBook;
 
 public interface GuestbookService {
     Long register(GuestbookDTO dto);
